@@ -2,9 +2,9 @@ section .text
 
 bits 64
 
-    global sum
+    global sum ;exportando a função
     
 sum:
     mov eax, edi
-    add eax, esi
+    add eax, esi 
     ret
