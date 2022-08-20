@@ -3,9 +3,8 @@
 int sum(int a, int b);
 
 
-int main(int argv, char **argc){
+void main(){
     printf("%d", sum(3, 5));
-    return 0;
 }
 
 __asm__(
